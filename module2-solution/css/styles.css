@@ -1,0 +1,59 @@
+div.container {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: left;
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    div.container {
+        width: 50%;
+    }
+    #third-item {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    div.container {
+        width: 33.33%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px 0px 20px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 1.75em;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.25em;
+    float: right;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    margin: 0px;
+    width: 100px
+}
+
+div.box{
+    background-color: #999999;
+    border: 1px solid black;
+}
+
+p {
+    padding: 10px;
+    clear: both;
+    margin: 0px;
+}
